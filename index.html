@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Nerko+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Animate Link -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navigation -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.png" alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">HOME</a></li>
+                <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="links" href="#skills">SKILLS</a></li>
+                <li class="list-items"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section>
+            <div class="homeContent">
+                <h1 id="username"> I'm Maria <span id="lname">Joe</span></h1>
+                <p id="userDetails">This is my official portfolio website to describe all<br> Details and work
+                    experience in Web Development
+                </p>
+                <a id="download" href="./Christin Abu_CV.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <div class="homeImage">
+                <img id="shape" class="group1" src="./images/shape.png" alt="no image">
+                <img id="girl" class="group1" src="./images/model.png" alt="no image">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right"z class="aboutImage">
+                    <img class="img1" src="./images/aboutme.avif" alt="no image">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ea quae, dolor nam pariatur
+                        saepe corrupti cum aperiam porro provident in ut impedit quis, optio excepturi, eos illo
+                        repellat iste?
+                    </p>
+                    <div class="information">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8590784347</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>mariajoe@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section id="skills">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillContent">
+                <div class="progressBars">
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercentage">89%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercentage">83%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercentage">71%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">REACT</h3>
+                        <span class="barPercentage">79%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar reactbar"></div>
+                    </div>
+                </div>
+                <div data-aos="fade-right" class="skillImage">
+                    <img width="100%" class="mySkill" src="./images/skills.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <div class="iconCollections">
+                <!-- linked in -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/christinabu/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                 </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/christinabu/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/christinabu/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                 </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/christinabu/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/christinabu/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/christinabu/" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                 </div>
+            </div>
+        </section>
+        <!-- Footer -->
+         <footer>
+            <p id="copyright">&copy; My portfolio Website -June 2024, All RightsReserved to &reg; Maria Joe</p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+         </footer>
+
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
