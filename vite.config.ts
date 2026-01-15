@@ -6,9 +6,9 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/christin-portfolio/',
+  base: '/Portfolio/',
   define: {
-    'import.meta.env.BASE_URL': JSON.stringify('/christin-portfolio/')
+    'import.meta.env.BASE_URL': JSON.stringify('/Portfolio/')
   },
   resolve: {
     alias: {
