@@ -47,8 +47,8 @@ christin-portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/christin-portfolio.git
-   cd christin-portfolio
+   git clone https://github.com/yourusername/Portfolio.git
+   cd Portfolio
    ```
 
 2. Install dependencies:

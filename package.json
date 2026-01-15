@@ -1,9 +1,9 @@
 {
-  "name": "christin-portfolio",
+  "name": "portfolio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://christinabu.github.io/christin-portfolio",
+  "homepage": "https://christinabu.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
