@@ -36,9 +36,13 @@ const technicalSkills = [
     category: 'Developer Tools',
     items: ['VS Code', 'GitHub', 'Android Studio'],
   },
-    {
+  {
     category: 'Design & UI Tools',
     items: ['Figma', 'Canva', 'Adobe'],
+  },
+  {
+    category: 'Graphic Design',
+    items: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe Premiere Pro', 'Adobe After Effects', 'Adobe Lightroom', 'Adobe Audition'],
   },
 ]
 
