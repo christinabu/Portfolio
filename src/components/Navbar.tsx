@@ -7,6 +7,7 @@ const navItems = [
   { name: 'About', href: '#about' },
   { name: 'Projects', href: '#projects' },
   { name: 'Skills', href: '#skills' },
+  { name: 'Journey', href: '#journey' },
   { name: 'Contact', href: '#contact' },
 ]
 
@@ -26,9 +27,8 @@ export const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-dark-lighter/80 backdrop-blur-lg' : 'bg-transparent'
-      }`}
+      className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-dark-lighter/80 backdrop-blur-lg' : 'bg-transparent'
+        }`}
     >
       <div className="container-custom px-4 py-4">
         <div className="flex items-center justify-between">
