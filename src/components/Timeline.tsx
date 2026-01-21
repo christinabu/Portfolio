@@ -1,7 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
 const TIMELINE_DATA = [
   {
@@ -19,7 +18,7 @@ const TIMELINE_DATA = [
     type: "work",
   },
   {
-    year: "2020 - 2023",
+    year: "2020 - 2024",
     title: "Bachelor of Technology",
     org: "Amal Jyothi College of Engineering",
     description: "Graduated with a specialization in Computer Science and Engineering. Developed a solid foundation in programming, data structures, and analytical problem-solving..",
@@ -35,7 +34,6 @@ const TIMELINE_DATA = [
 ];
 
 export default function Timeline() {
-  const containerRef = useRef<HTMLDivElement>(null);
 
   return (
     <section className="relative z-20 bg-black min-h-screen py-32 px-4 md:px-12 overflow-hidden" id="journey">
@@ -60,7 +58,7 @@ export default function Timeline() {
           </p>
         </motion.div>
 
-        <div ref={containerRef} className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-4xl mx-auto">
           {/* Vertical Line */}
           <div className="absolute left-[20px] md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-neon-blue/20 via-neon-blue/50 to-neon-blue/20 transform md:-translate-x-1/2" />
 
