@@ -42,7 +42,7 @@
   }
 
   .typing-text span::before {
-    content: "software Developer";
+    content: "Cybersecurity Enthusiast";
     color: #ff0000;
     animation: words 20s infinite;
   }
@@ -67,26 +67,31 @@
   @keyframes words {
 
     0%,
-    20% {
+    16% {
+      content: "Cybersecurity Enthusiast";
+    }
+
+    17%,
+    33% {
       content: "Web Developer";
     }
 
-    21%,
-    40% {
+    34%,
+    50% {
       content: "Front-End Developer";
     }
 
-    41%,
-    60% {
+    51%,
+    66% {
       content: "Ui/Ux Designer";
     }
 
-    61%,
-    80% {
+    67%,
+    83% {
       content: "Graphic Designer";
     }
 
-    81%,
+    84%,
     100% {
       content: "Youtube / Editor";
     }

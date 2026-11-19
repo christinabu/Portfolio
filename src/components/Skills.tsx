@@ -2,6 +2,13 @@ import { motion } from 'framer-motion'
 
 const technicalSkills = [
   {
+  category: 'Network & Security',
+  items: [
+    'TCP/IP','DNS','VLANs','Routing & Switching','VPNs','Subnetting',
+     'Firewalls','Network Troubleshooting','Wireshark',
+  ],
+},
+  {
     category: 'Programming Languages',
     items: ['Python', 'JavaScript', 'Java', 'C'],
   },

@@ -4,6 +4,20 @@ import { motion } from "framer-motion";
 
 const TIMELINE_DATA = [
   {
+    year: "2026 - PRESENT",
+    title: "Msc. Cyber Security and Emerging Threats",
+    org: "Middlesex University, Dubai, UAE",
+    description: "Currently pursuing an MSc in Cybersecurity, developing advanced knowledge in network security, ethical hacking, threat analysis, vulnerability assessment, and information security.",
+    type: "education",
+  },
+  {
+    year: "APR 2025 - MAY 2026",
+    title: "Sales Support Engineer",
+    org: "ABG Building Material Trading LLC, Dubai, UAE",
+    description: "Coordinated end-to-end sales and service requests, managed client communications, quotations and documentation, and utilized CRM and Excel to maintain accurate records, troubleshoot errors, improve turnaround time, and consistently meet daily targets.",
+    type: "work",
+  },
+  {
     year: "OCT 2024 - MAR 2025",
     title: "Support Executive (UK/US Operations)",
     org: "Amazon, Kochi, India",
@@ -19,7 +33,7 @@ const TIMELINE_DATA = [
   },
   {
     year: "2020 - 2024",
-    title: "Bachelor of Technology",
+    title: "B.Tech in Computer Science and Engineering",
     org: "Amal Jyothi College of Engineering",
     description: "Graduated with a specialization in Computer Science and Engineering. Developed a solid foundation in programming, data structures, and analytical problem-solving..",
     type: "education",
@@ -53,7 +67,7 @@ export default function Timeline() {
             My <span className="text-neon-blue">Journey</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed font-poppins">
-            From writing my first "Hello World" to building complex applications.
+            From writing my first "Hello World" to building complex applications and exploring networking and cybersecurity threats.
             Here is a glimpse into my professional evolution.
           </p>
         </motion.div>

@@ -3,6 +3,14 @@ import { Github } from 'lucide-react'
 
 const projects = [
   {
+    title: 'CRM - Invoice Management System',
+    description: 'A web-based invoicing and billing management system designed to streamline invoice generation, automate calculations, and simplify financial record management for a building materials trading business.',
+    image: `${import.meta.env.BASE_URL}assets/images/CRM.png`,
+    tags: ['Flutter', 'Dart', 'Firebase'],
+    github: 'https://abg-invoice.vercel.app/',
+    date: 'Dec 2025'
+  },
+  {
     title: 'Cattle Management and Lumpy Skin Disease Detection System',
     description: 'An integrated AgriTech platform leveraging Machine Learning for automated Lumpy Skin Disease detection and real-time financial tracking to optimize cattle health and farm profitability.',
     image: `${import.meta.env.BASE_URL}assets/images/C-Doc.jpg`,
@@ -34,7 +42,7 @@ export const Projects = () => {
         </motion.h2>
 
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
             {projects.map((project, index) => (
             <motion.div
               key={project.title}

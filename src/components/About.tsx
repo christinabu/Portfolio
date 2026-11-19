@@ -10,32 +10,8 @@ export const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="grid md:grid-cols-2 gap-12 items-center"
+          className="max-w-4xl mx-auto"
         >
-          {/* Image Section */}
-          <div className="relative">
-            <motion.div
-              initial={{ scale: 0.8, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className="relative z-10"
-            >
-              <div className="aspect-square rounded-2xl overflow-hidden glass-card">
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/images/profile.jpg`}
-                  alt="Christin Abu"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </motion.div>
-
-            {/* Decorative elements */}
-            <div className="absolute -top-4 -left-4 w-24 h-24 border-2 border-neon-blue rounded-lg animate-float" />
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-neon-purple rounded-lg animate-float" style={{ animationDelay: '1s' }} />
-          </div>
-
-          {/* Content Section */}
           <div>
             <motion.h2
               initial={{ opacity: 0, x: -20 }}
@@ -54,7 +30,7 @@ export const About = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
               className="text-gray-300 mb-6"
             >
-              I’m a Computer Science Engineer graduate from Amal Jyothi College of Engineering (2020-2024) with hands-on experience in web development and a strong interest in UI/UX design. I’ve worked on real-world projects building responsive, user-centered applications using React, JavaScript, HTML, CSS, and I enjoy bridging the gap between clean design and functional code.
+              I’m a Computer Science Engineer currently pursuing an MSc in Cyber Security and Emerging Threats at Middlesex University Dubai, with a strong interest in cybersecurity, network security, and emerging digital threats. I’m passionate about understanding security challenges, exploring threat prevention strategies, and building secure and reliable digital solutions.
             </motion.p>
 
             <motion.p
@@ -64,7 +40,7 @@ export const About = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-gray-300 mb-8"
             >
-              I focus on creating intuitive digital experiences backed by maintainable, scalable implementations. I’m a continuous learner who values collaboration, clear communication, and thoughtful problem-solving, and I’m seeking remote opportunities where I can contribute as a junior developer or UI/UX-focused engineer while growing with a global team.
+              With a foundation in software development and hands-on experience in building real-world applications using React, JavaScript, HTML, and CSS, I bring a combination of technical development skills and a security-focused mindset. I’m a continuous learner who values collaboration, analytical thinking, and problem-solving, and I’m eager to explore opportunities in cybersecurity while contributing to innovative projects and growing alongside a global team.
 
             </motion.p>
 
